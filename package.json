@@ -1,0 +1,28 @@
+{
+  "name": "create-sette-ts",
+  "version": "1.0.0",
+  "description": "CLI para criar projetos TypeScript a partir do template sette-ts.",
+  "type": "module",
+  "bin": {
+    "create-sette-ts": "bin/create-sette-ts.js"
+  },
+  "files": [
+    "bin",
+    "template"
+  ],
+  "scripts": {
+    "test": "node --test --test-isolation=none test/create-project.test.js",
+    "test:cli": "node --test --test-isolation=none test/create-project.test.js"
+  },
+  "keywords": [
+    "cli",
+    "create-app",
+    "typescript",
+    "starter"
+  ],
+  "author": "Sette0o0",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
