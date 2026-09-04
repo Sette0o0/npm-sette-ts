@@ -1,6 +1,6 @@
 {
   "name": "create-sette-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI para criar projetos TypeScript a partir do template sette-ts.",
   "type": "module",
   "bin": {
